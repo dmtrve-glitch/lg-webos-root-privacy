@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.key
+*.pem
+*.epk
+*.ipk
+.env
+.env.*
+private/
+sessions/
+transfers/
+backups/
+logs/
+validation-deps/
+*-build.json

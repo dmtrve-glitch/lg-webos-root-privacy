@@ -1,0 +1,4 @@
+interface:
+  display_name: "LG webOS: root и приватность"
+  short_description: "Root LG webOS, аудит слежки и обратимая блокировка"
+  default_prompt: "Используй $lg-webos-root-privacy для проверки моего LG, подходящего root и отключения рекламы и сбора данных с откатом."
