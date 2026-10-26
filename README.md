@@ -1,5 +1,7 @@
 # LG webOS Root & Privacy Skill
 
+[Русский](README.md) | [English](README.en.md)
+
 Переносимый скилл для **Codex и Claude Code**: проверка совместимости root, аудит рекламы и сбора данных, обратимое отключение системных компонентов и восстановление LG webOS TV.
 
 Это инструкция и набор инструментов для агента, работающего с вашим телевизором в локальной сети. Подходящий способ выбирается по полной модели, региону, аппаратной платформе и версиям webOS/firmware. Скилл различает получение root и замену прошивки; универсального firmware-образа или flasher в нём нет.
@@ -19,13 +21,15 @@
 
 Выполните команду для нужного агента. Каталог назначения должен отсутствовать. Команды с `$HOME` подходят для PowerShell и обычной Unix shell.
 
-**Codex** (если `CODEX_HOME` настроен, используйте его каталог `skills`):
+**Codex:**
 
 ```sh
-git clone https://github.com/dmtrve-glitch/lg-webos-root-privacy.git "$HOME/.codex/skills/lg-webos-root-privacy"
+git clone https://github.com/dmtrve-glitch/lg-webos-root-privacy.git "$HOME/.agents/skills/lg-webos-root-privacy"
 ```
 
 Вызов: `$lg-webos-root-privacy`.
+
+Это текущий пользовательский каталог из [документации Codex](https://learn.chatgpt.com/docs/build-skills). В установках, использующих прежний каталог `~/.codex/skills` или `CODEX_HOME/skills`, можно разместить скилл там; проверьте его обнаружение в своей версии. Если новый скилл не появился, перезапустите Codex.
 
 **Claude Code:**
 
@@ -34,6 +38,8 @@ git clone https://github.com/dmtrve-glitch/lg-webos-root-privacy.git "$HOME/.cla
 ```
 
 Вызов: `/lg-webos-root-privacy`.
+
+Если Claude Code не подхватил новый каталог, выполните `/reload-skills` или перезапустите сеанс. Подробнее: [документация Claude Code](https://code.claude.com/docs/en/skills).
 
 Основные инструкции: [SKILL.md](SKILL.md). Дополнительные варианты: [INSTALL.md](INSTALL.md).
 

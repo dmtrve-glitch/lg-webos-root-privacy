@@ -4,10 +4,12 @@
 
 | Агент | Пользовательский каталог | Вызов |
 | --- | --- | --- |
-| Codex | `~/.codex/skills/lg-webos-root-privacy/` (или `CODEX_HOME/skills/`) | `$lg-webos-root-privacy` |
+| Codex | `~/.agents/skills/lg-webos-root-privacy/` | `$lg-webos-root-privacy` |
 | Claude Code | `~/.claude/skills/lg-webos-root-privacy/` | `/lg-webos-root-privacy` |
 
-`SKILL.md` должен лежать непосредственно в этом каталоге. В Claude Code `agents/openai.yaml` не требуется; остальные инструкции/скрипты одинаковые. Если вы выбрали project scope, Claude Code также читает `.claude/skills/` в проекте. Учитывайте локальные организационные ограничения и обнаружение новых скиллов агентом. Документация Claude Code: https://code.claude.com/docs/en/skills .
+`SKILL.md` должен лежать непосредственно в этом каталоге. В установках Codex, использующих `~/.codex/skills` или `CODEX_HOME/skills`, можно использовать этот прежний каталог после проверки обнаружения скилла. Текущие пути: [документация Codex](https://learn.chatgpt.com/docs/build-skills). В Claude Code `agents/openai.yaml` не требуется; остальные инструкции/скрипты одинаковые. Если вы выбрали project scope, Claude Code также читает `.claude/skills/` в проекте. Учитывайте локальные организационные ограничения и обнаружение новых скиллов агентом. Документация Claude Code: https://code.claude.com/docs/en/skills .
+
+English installation instructions: [README.en.md](README.en.md).
 
 Пример запроса: «Используй этот скилл: найди мой LG в домашней сети, проверь модель и firmware, подбери совместимый root и подготовь отключение рекламы и телеметрии с откатом. Универсальный пульт нужен».
 
