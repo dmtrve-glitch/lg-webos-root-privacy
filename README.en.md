@@ -96,3 +96,16 @@ The 18 offline checks cover hash mismatches, partial application failures, mount
 The repository contains no pairing keys, passwords, device-specific IP addresses, serial numbers, MAC addresses, user logs, backups, or firmware images. Keep data from each new session outside the skill directory.
 
 Upstream projects retain their own licenses. SlopBro uses AGPL-3.0; its source code is not bundled here.
+
+## Support the project
+
+If you find this skill useful, you can support its development.
+
+- Asset: **USDT**
+- Network: **TRON (TRC20)**
+
+Wallet address:
+
+```text
+TMbpSUNeYpaWDY4ckWNQbe2WapPTppVjSL
+```

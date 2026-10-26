@@ -75,3 +75,16 @@ python scripts/self_test.py
 - [Homebrew Channel](https://github.com/webosbrew/webos-homebrew-channel)
 
 В репозитории нет pairing keys, паролей, IP/serial/MAC конкретного телевизора, пользовательских журналов, backup или firmware-образов. Данные нового сеанса храните отдельно от скилла. Upstream-проекты распространяются по собственным лицензиям; SlopBro использует AGPL-3.0, его код здесь не включён.
+
+## Поддержать проект
+
+Если скилл оказался полезен, можно поддержать его разработку.
+
+- Валюта: **USDT**
+- Сеть: **TRON (TRC20)**
+
+Адрес кошелька:
+
+```text
+TMbpSUNeYpaWDY4ckWNQbe2WapPTppVjSL
+```
